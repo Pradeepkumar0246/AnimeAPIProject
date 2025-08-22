@@ -1,0 +1,545 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\controllers\\tokencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\controllers\\studiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\controllers\\studiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\controllers\\animescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\controllers\\animescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\models\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\services\\studioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\services\\studioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\services\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\services\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\services\\animeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\services\\animeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\interfaces\\repositories\\ianimerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\interfaces\\repositories\\ianimerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\interfaces\\repositories\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\interfaces\\repositories\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\interfaces\\repositories\\istudiorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\interfaces\\repositories\\istudiorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\interfaces\\services\\istudioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\interfaces\\services\\istudioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\interfaces\\services\\igenreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\interfaces\\services\\igenreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\interfaces\\services\\ianimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\interfaces\\services\\ianimeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\models\\studio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\models\\studio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\models\\anime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\models\\anime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\repositories\\studiorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\repositories\\studiorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\repositories\\animerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\repositories\\animerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\models\\animecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\models\\animecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|c:\\users\\pradeep.desktop-be5n6b8\\source\\repos\\animeapiproject\\animeapiproject\\migrations\\20250822050120_anime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}|AnimeAPIProject\\AnimeAPIProject.csproj|solutionrelative:animeapiproject\\migrations\\20250822050120_anime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 332,
+          "SelectedChildIndex": 13,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Users.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Models\\Users.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Models\\Users.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Models\\Users.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T09:29:31.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T11:39:26.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Services\\UserService.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Services\\UserService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAkwBkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T11:40:52.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowBgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T06:31:54.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudioController.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Controllers\\StudioController.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Controllers\\StudioController.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Controllers\\StudioController.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Controllers\\StudioController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T13:40:24.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TokenController.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Controllers\\TokenController.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Controllers\\TokenController.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Controllers\\TokenController.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Controllers\\TokenController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAcwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T10:46:25.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\appsettings.json",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\appsettings.json*",
+              "RelativeToolTip": "AnimeAPIProject\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-21T07:50:13.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Program.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Program.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Program.cs*",
+              "RelativeToolTip": "AnimeAPIProject\\Program.cs*",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAqwF4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T07:52:06.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Interfaces\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Interfaces\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Interfaces\\Services\\IUserService.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Interfaces\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:04:34.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Interfaces\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Interfaces\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Interfaces\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Interfaces\\Repositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:03:18.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AnimesController.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Controllers\\AnimesController.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Controllers\\AnimesController.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Controllers\\AnimesController.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Controllers\\AnimesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T03:12:33.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GenreController.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Controllers\\GenreController.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Controllers\\GenreController.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Controllers\\GenreController.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Controllers\\GenreController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAowFcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T03:14:15.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Models\\Genre.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Models\\Genre.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Models\\Genre.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Models\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T07:41:13.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IStudioService.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Interfaces\\Services\\IStudioService.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Interfaces\\Services\\IStudioService.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Interfaces\\Services\\IStudioService.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Interfaces\\Services\\IStudioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:05:26.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudioService.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Services\\StudioService.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Services\\StudioService.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Services\\StudioService.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Services\\StudioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T11:41:36.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GenreService.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Services\\GenreService.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Services\\GenreService.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Services\\GenreService.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Services\\GenreService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T11:41:23.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AnimeService.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Services\\AnimeService.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Services\\AnimeService.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Services\\AnimeService.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Services\\AnimeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T11:41:08.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAnimeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Interfaces\\Repositories\\IAnimeRepository.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Interfaces\\Repositories\\IAnimeRepository.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Interfaces\\Repositories\\IAnimeRepository.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Interfaces\\Repositories\\IAnimeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:03:37.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IGenreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Interfaces\\Repositories\\IGenreRepository.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Interfaces\\Repositories\\IGenreRepository.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Interfaces\\Repositories\\IGenreRepository.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Interfaces\\Repositories\\IGenreRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:03:56.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IStudioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Interfaces\\Repositories\\IStudioRepository.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Interfaces\\Repositories\\IStudioRepository.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Interfaces\\Repositories\\IStudioRepository.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Interfaces\\Repositories\\IStudioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:04:15.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IGenreService.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Interfaces\\Services\\IGenreService.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Interfaces\\Services\\IGenreService.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Interfaces\\Services\\IGenreService.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Interfaces\\Services\\IGenreService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:05:09.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IAnimeService.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Interfaces\\Services\\IAnimeService.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Interfaces\\Services\\IAnimeService.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Interfaces\\Services\\IAnimeService.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Interfaces\\Services\\IAnimeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T13:04:52.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Studio.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Models\\Studio.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Models\\Studio.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Models\\Studio.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Models\\Studio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T07:43:18.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Anime.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Models\\Anime.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Models\\Anime.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Models\\Anime.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Models\\Anime.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T07:37:52.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "StudioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Repositories\\StudioRepository.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Repositories\\StudioRepository.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Repositories\\StudioRepository.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Repositories\\StudioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T11:40:11.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GenreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Repositories\\GenreRepository.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Repositories\\GenreRepository.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Repositories\\GenreRepository.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Repositories\\GenreRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAUAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T11:39:55.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AnimeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Repositories\\AnimeRepository.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Repositories\\AnimeRepository.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Repositories\\AnimeRepository.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Repositories\\AnimeRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwCwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T11:39:41.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AnimeContext.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Models\\AnimeContext.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Models\\AnimeContext.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Models\\AnimeContext.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Models\\AnimeContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-21T07:52:59.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250822050120_Anime.cs",
+              "DocumentMoniker": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Migrations\\20250822050120_Anime.cs",
+              "RelativeDocumentMoniker": "AnimeAPIProject\\Migrations\\20250822050120_Anime.cs",
+              "ToolTip": "C:\\Users\\pradeep.DESKTOP-BE5N6B8\\Source\\Repos\\AnimeAPIProject\\AnimeAPIProject\\Migrations\\20250822050120_Anime.cs",
+              "RelativeToolTip": "AnimeAPIProject\\Migrations\\20250822050120_Anime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-22T05:01:21.579Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 222,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
