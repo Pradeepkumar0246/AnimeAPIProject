@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36212.18 d17.14
+VisualStudioVersion = 17.14.36212.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimeAPIProject", "AnimeAPIProject\AnimeAPIProject.csproj", "{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectTesting", "..\ProjectTesting\ProjectTesting\ProjectTesting.csproj", "{CA6AB64B-B80B-49BA-F922-F29A215AD446}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F075E36-217C-4544-A4A9-A0CF54F9BBC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6AB64B-B80B-49BA-F922-F29A215AD446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6AB64B-B80B-49BA-F922-F29A215AD446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6AB64B-B80B-49BA-F922-F29A215AD446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6AB64B-B80B-49BA-F922-F29A215AD446}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
