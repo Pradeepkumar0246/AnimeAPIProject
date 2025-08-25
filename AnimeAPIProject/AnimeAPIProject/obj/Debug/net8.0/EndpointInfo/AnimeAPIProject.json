@@ -164,7 +164,24 @@
         },
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Anime"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Anime"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Anime"
+                }
+              }
+            }
           }
         }
       },
@@ -198,6 +215,55 @@
         "parameters": [
           {
             "name": "genreId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Anime"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Anime"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Anime"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Animes/studio/{studioId}": {
+      "get": {
+        "tags": [
+          "Animes"
+        ],
+        "parameters": [
+          {
+            "name": "studioId",
             "in": "path",
             "required": true,
             "schema": {
@@ -424,6 +490,64 @@
         }
       }
     },
+    "/api/Genre/{id}/anime-count": {
+      "get": {
+        "tags": [
+          "Genre"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Genre/{id}/animes": {
+      "get": {
+        "tags": [
+          "Genre"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Genre/with-counts": {
+      "get": {
+        "tags": [
+          "Genre"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Studio": {
       "get": {
         "tags": [
@@ -541,6 +665,64 @@
               "format": "int32"
             }
           }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Studio/{id}/anime-count": {
+      "get": {
+        "tags": [
+          "Studio"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Studio/{id}/animes": {
+      "get": {
+        "tags": [
+          "Studio"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Studio/count": {
+      "get": {
+        "tags": [
+          "Studio"
         ],
         "responses": {
           "200": {
@@ -812,13 +994,6 @@
           "genre_Description": {
             "type": "string",
             "nullable": true
-          },
-          "animes": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Anime"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false
@@ -854,13 +1029,6 @@
           },
           "studio_Description": {
             "type": "string",
-            "nullable": true
-          },
-          "animes": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Anime"
-            },
             "nullable": true
           }
         },

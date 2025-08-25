@@ -4,16 +4,16 @@ namespace AnimeAPIProject.Models
 {
     public class AnimeContext : DbContext
     {
-        public AnimeContext(DbContextOptions<AnimeContext> options) : base(options)
-        {
-        }
+        public AnimeContext(DbContextOptions<AnimeContext> options) : base(options) { }
+
         public DbSet<Anime> Animes { get; set; }
         public DbSet<Genre> Genres { get; set; }
         public DbSet<Studio> Studios { get; set; }
         public DbSet<Users> Users { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Users <-> Animes (Many-to-Many: WatchedAnimes)
+            // Users <-> Animes (Many-to-Many)
             modelBuilder.Entity<Users>()
                 .HasMany(u => u.WatchedAnimes)
                 .WithMany(a => a.Users)

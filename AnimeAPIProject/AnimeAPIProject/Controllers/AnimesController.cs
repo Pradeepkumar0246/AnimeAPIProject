@@ -1,11 +1,7 @@
-﻿    using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using AnimeAPIProject.Interfaces.Services;
+using AnimeAPIProject.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using AnimeAPIProject.Models;
 
 namespace AnimeAPIProject.Controllers
 {
@@ -13,108 +9,96 @@ namespace AnimeAPIProject.Controllers
     [ApiController]
     public class AnimesController : ControllerBase
     {
+        private readonly IAnimeService _animeService;
         private readonly AnimeContext _context;
 
-        public AnimesController(AnimeContext context)
+        // Single constructor with both dependencies
+        public AnimesController(IAnimeService animeService, AnimeContext context)
         {
-            _context = context;
+            _animeService = animeService ?? throw new ArgumentNullException(nameof(animeService));
+            _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
         // GET: api/Animes
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Anime>>> GetAnimes()
         {
-            return await _context.Animes.ToListAsync();
+            var animes = await _animeService.GetAllAsync();
+            return Ok(animes);
         }
 
         // GET: api/Animes/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Anime>> GetAnime(int id)
         {
-            var anime = await _context.Animes.FindAsync(id);
-
+            var anime = await _animeService.GetByIdAsync(id);
             if (anime == null)
-            {
                 return NotFound();
-            }
 
-            return anime;
-        }
-
-        // PUT: api/Animes/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutAnime(int id, Anime anime)
-        {
-            if (id != anime.Anime_Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(anime).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!AnimeExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
+            return Ok(anime);
         }
 
         // POST: api/Animes
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Anime>> PostAnime(Anime anime)
+        public async Task<ActionResult<Anime>> PostAnime([FromBody] Anime anime)
         {
-            _context.Animes.Add(anime);
-            await _context.SaveChangesAsync();
+            var created = await _animeService.CreateAsync(anime);
+            return CreatedAtAction(nameof(GetAnime), new { id = created.Anime_Id }, created);
+        }
 
-            return CreatedAtAction("GetAnime", new { id = anime.Anime_Id }, anime);
+        // PUT: api/Animes/5
+        [HttpPut("{id}")]
+        public async Task<ActionResult<Anime>> PutAnime(int id, [FromBody] Anime anime)
+        {
+            if (id != anime.Anime_Id)
+                return BadRequest("Route id and body id must match.");
+
+            var updated = await _animeService.UpdateAsync(id, anime);
+            if (updated == null)
+                return NotFound();
+
+            return Ok(updated);
         }
 
         // DELETE: api/Animes/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAnime(int id)
         {
-            var anime = await _context.Animes.FindAsync(id);
-            if (anime == null)
-            {
+            var ok = await _animeService.DeleteAsync(id);
+            if (!ok)
                 return NotFound();
-            }
-
-            _context.Animes.Remove(anime);
-            await _context.SaveChangesAsync();
 
             return NoContent();
         }
 
-        private bool AnimeExists(int id)
-        {
-            return _context.Animes.Any(e => e.Anime_Id == id);
-        }
         // GET: api/Animes/genre/5
         [HttpGet("genre/{genreId}")]
         public async Task<ActionResult<IEnumerable<Anime>>> GetAnimesByGenre(int genreId)
         {
             var animes = await _context.Animes
+                .Include(a => a.Genres) // load related genres
                 .Where(a => a.Genres.Any(g => g.Genre_Id == genreId))
                 .ToListAsync();
-            if (animes == null || !animes.Any())
-            {
+
+            if (!animes.Any())
                 return NotFound();
-            }
-            return animes;
+
+            return Ok(animes);
+        }
+
+        // GET: api/Animes/studio/5
+        [HttpGet("studio/{studioId}")]
+        public async Task<ActionResult<IEnumerable<Anime>>> GetAnimesByStudio(int studioId)
+        {
+            var animes = await _context.Animes
+                .Include(a => a.Studio) // load related studio
+                .Where(a => a.Studio_Id == studioId)
+                .ToListAsync();
+
+            if (!animes.Any())
+                return NotFound();
+
+            return Ok(animes);
         }
     }
 }

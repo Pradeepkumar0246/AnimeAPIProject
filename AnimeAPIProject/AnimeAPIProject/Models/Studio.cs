@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace AnimeAPIProject.Models
 {
@@ -9,6 +10,8 @@ namespace AnimeAPIProject.Models
         public string Studio_Name { get; set; }
         public int Studio_Year { get; set; }
         public string Studio_Description { get; set; }
+
+        [JsonIgnore]
         public ICollection<Anime> Animes { get; set; } = new List<Anime>();
     }
 }
